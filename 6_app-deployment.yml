@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-mysql
-          image: ashokit/spring-boot-mysql
+          image: expozaid/springappmysql
           ports:
             - containerPort: 8080
           env:   # Setting Enviornmental Variables
